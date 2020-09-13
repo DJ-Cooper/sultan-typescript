@@ -1,0 +1,29 @@
+{
+  "name": "sultan-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack --mode production --config webpack.config.prod.js",
+    "build": "webpack --mode development --config webpack.config.dev.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "html-webpack-plugin": "^4.3.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
